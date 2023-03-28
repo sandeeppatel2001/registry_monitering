@@ -64,7 +64,7 @@ location = wrg.HKEY_CURRENT_USER
 # Store complete path in soft
 soft = wrg.OpenKeyEx(location, r"SOFTWARE\\")
 key_1 = wrg.CreateKey(soft, "sandeep")
-  
+
 # Deleting the foler sandeep
 del_key = wrg.DeleteKey(key_1, "")
   
